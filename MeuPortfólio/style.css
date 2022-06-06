@@ -210,7 +210,7 @@ a:hover {
     margin: 3rem 0;
 }
 
-.card-contaner {
+.card-container {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -317,8 +317,8 @@ a:hover {
         flex-direction: column;
     }
 
-    .main-container .card-contaner:nth-child(1),
-    .main-container .card-contaner:nth-child(3) {
+    .main-container .card-container:nth-child(1),
+    .main-container .card-container:nth-child(3) {
         flex-direction: column-reverse;
     }
 

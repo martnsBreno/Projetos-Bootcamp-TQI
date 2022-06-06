@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    font-size: 20px;
+}
+
+#currentNumber {
+    font-size: 40px;
+    padding: 4px;
+}
