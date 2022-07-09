@@ -12,12 +12,22 @@ INSERT INTO pessoas (nome, nascimento) VALUES ('Pedro', '1997-07-12')
 
 /* SELECIONANDO DADOS */
 
-SELECT * FROM 'pessoas'
+SELECT * FROM pessoas
 
-SELECT nome FROM 'pessoas'
+SELECT nome FROM pessoas
 
 SELECT nome, nascimento FROM 'pessoas'
 
 /* ATUALIZANDO DADOS */
 
 UPDATE pessoas SET nome='Breno Martins' WHERE id=1
+
+/* DELETANDO DADOS */
+
+DELETE FROM pessoas WHERE id=1
+
+/* ORDENANDO OS DADOS */
+
+SELECT * FROM pessoas ORDER BY nome
+
+SELECT * FROM pessoas ORDER BY nome DESC 
