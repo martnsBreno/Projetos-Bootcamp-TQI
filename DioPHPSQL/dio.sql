@@ -9,3 +9,15 @@ INSERT INTO pessoas (nome, nascimento) VALUES ('Breno', '2002-03-21')
 INSERT INTO pessoas (nome, nascimento) VALUES ('Marcela', '2007-05-15')
 
 INSERT INTO pessoas (nome, nascimento) VALUES ('Pedro', '1997-07-12')
+
+/* SELECIONANDO DADOS */
+
+SELECT * FROM 'pessoas'
+
+SELECT nome FROM 'pessoas'
+
+SELECT nome, nascimento FROM 'pessoas'
+
+/* ATUALIZANDO DADOS */
+
+UPDATE pessoas SET nome='Breno Martins' WHERE id=1
