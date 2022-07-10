@@ -1,5 +1,7 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        quadrilatero.area(20);
+        quadrilatero.area(20, 10, 5);
+        quadrilatero.area(20, 15);
     }
 }
